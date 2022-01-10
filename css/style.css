@@ -1,0 +1,17 @@
+#wrap { display: flex; height: 100%; min-height: 600px; justify-content: center; align-items: center; }
+#contents { width: 80%; text-align: center; }
+
+.btn { display: inline-block; position: relative; padding: 20px 0; border: none; font-family: inherit; pointer-events: auto; cursor: pointer; }
+
+
+/* chatBox_wrap */
+.chatBox { width: 60%; margin: 0 auto; padding: 50px 0; border: 5px solid #a889c0; font-size: 30px; box-sizing: border-box; }
+
+/* character_wrap */
+.character_wrap { margin-top: 10px; }
+
+/* orderBox_wrap */
+.orderBox_wrap { margin-top: 50px; }
+.orderBox { width: 50%; margin: 0 auto; }
+.orderBox_wrap .orderBox_text { width: 100%; padding: 10px; box-sizing: border-box; }
+.orderBox_wrap .btn { width: 100%; margin-top: 25px; background-color: #a889c0; font-size: 20px; }
