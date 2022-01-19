@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>console</title>
+    <script src="../js/day8.js"></script>
+</head>
+<body>
+    <div>
+        <!-- 
+            TIL
+            #1. 함수
+                - 어떠한 기능을 하는 코드 덩어리
+                - 함수를 사용함으로써 똑같은 코드를 여러 번 작성할 필요가 없음.
+                - 함수의 정의
+                    ㄴ function 키워드 붙임
+                    ㄴ 1. 함수의 이름
+                       2. 매개변수
+                       3. 실행문
+                    ㄴ function 함수이름(매개변수1, 매개변수2 ... ){
+                            실행문
+                        }
+                    ㄴ function add(num1, num2) {
+                            document.write(num1 + num2);
+                        }
+
+                        add(1,2);
+                - 함수의 값 반환(return)
+                    ㄴ 함수의 호출을 통해 특정 값을 반환할 수 있도록 함수 선언 가능
+                    ㄴ ​function add(num1, num2){
+                            return num1 + num2;
+                        }
+
+                        var result = add(1,2);
+                - 함수를 값으로 사용하기
+                    ㄴ ​function multiply(num1, num2){
+                            return num1 * num2;
+                        }
+
+                        var multiplyNums = multiply;
+                        document.write(multiplyNums(2,3));
+                    ㄴ multiplynums라는 변수에 multiply라는 함수를 저장한 것
+                    ㄴ 함수를 변수에 저장하게 되면 함수 자체를 변수처럼 사용할 수 있음
+
+        -->
+
+        <div>이거슨 day 8 과제입니다 호호</div>
+        <button onclick="click_btn()"  style="margin-top: 20px;">전광판 버튼</button>
+        <div id="text"></div>
+    </div>
+</body>
+</html>
