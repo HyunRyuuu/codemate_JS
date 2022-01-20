@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>console</title>
+    <script src="../js/day9.js"></script>
+</head>
+<body>
+    <div>
+        <!-- 
+            TIL
+            #1. 객체
+                - 이름과 값으로 구성된 프로퍼티의 정렬되지 않은 집합
+                - 객체에서 프로퍼티를 참조하는 방법은 두 가지
+                    ㄴ 객체 이름.프로퍼티이름
+                    ㄴ 객체이름["프로퍼티이름"]
+
+            #2. 객체의 프로퍼티 추가, 삭제
+                - 객체를 참조하는 방식으로 새로운 프로퍼티 추가
+                - delete [ 프로퍼티 ] 코드로 프로퍼티 삭제
+
+            #3. 객체 메소드
+                - Comu라는 함수는 name, birthday, Id라는 값을 매개변수로 받고 있음
+                - this라는 키워드는 '이것의'
+                - this.name = name;
+                    ㄴ Comu라는 함수의 name이라는 변수의 값은 매개변수로서 넘어온 name으로 설정하겠다는 의미
+                - new라는 키워드 '새로운'
+                - comuStru 라는 변수에 새로운 Comr라는 함수를 할당 
+                    ㄴ function Comu(name, birthday, Id){
+                            this.name = name;
+                            this.birthdat = brithday;
+                            this.Id = id;
+                        }
+                        var comuStu = new Comu("코뮤","210227","123456");
+        -->
+
+        <div>이거슨 day 9 과제입니다 호호</div>
+        <div style="margin-top: 20px;">
+            <button onclick="click_btn_1()">작은 아씨들</button>
+            <button onclick="click_btn_2()">이상한 나라의 앨리스</button>
+            <button onclick="click_btn_3()">님아 그 강을 건너지 마오</button>
+        </div>
+        <div>
+            <ul>
+                <li id="title"></li>
+                <li id="year"></li>
+                <li id="genre"></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
