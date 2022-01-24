@@ -12,12 +12,13 @@
         <!-- css link -->
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
+        <script src="js/chatbot.js"></script>
     </head>
     <body>
         <div id="wrap">
             <div id="contents">
                 <div class="chatBox_wrap">
-                    <div class="chatBox">
+                    <div id="chatBox" class="chatBox">
                         Hello World
                     </div>
                 </div>
@@ -33,7 +34,7 @@
                 <div class="orderBox_wrap">
                     <div class="orderBox">
                         <input type="text" id="orderBox" name="orderBox" class="orderBox_text" title="명령어 입력" value="">
-                        <button class="btn">시키기</button>
+                        <button class="btn" onclick="checkText()">시키기</button>
                     </div>
                 </div>
                 <!-- //.orderbox -->
