@@ -8,7 +8,7 @@
 .chatBox { width: 60%; margin: 0 auto; padding: 50px 0; border: 5px solid #a889c0; font-size: 30px; box-sizing: border-box; }
 
 /* character_wrap */
-.character_wrap { margin-top: 10px; }
+.character_wrap { margin-top: 50px; }
 
 /* orderBox_wrap */
 .orderBox_wrap { margin-top: 50px; }
